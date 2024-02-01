@@ -34,7 +34,7 @@ const (
 	TaskClock      = "task_clock"
 
 	// bpf - attacher package
-	CPUTime       = "bpf_cpu_time_us"
+	CPUTime       = "bpf_cpu_time_ms"
 	PageCacheHit  = "bpf_page_cache_hit"
 	IRQNetTXLabel = "bpf_net_tx_irq"
 	IRQNetRXLabel = "bpf_net_rx_irq"
